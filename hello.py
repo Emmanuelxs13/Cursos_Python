@@ -14,4 +14,5 @@ lineas.
 print(type("Soy un dato str")) # Tipo 'str'
 print(type(7)) # Tipo 'int'
 print(type(7.7)) # Tipo 'float'
+print(type(7 + 7j)) # Tipo 'complex'
 print(type(True)) # Tipo 'bool'
