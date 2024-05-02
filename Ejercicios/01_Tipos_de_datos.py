@@ -49,5 +49,35 @@
 #  y lo almacene en una variable, y muestre por pantalla la frase Tu índice de masa corporal es <imc> donde <imc> es el índice
 #  de masa corporal calculado redondeado con dos decimales.
 
-peso = float(input("Ingrese su peso en kg:"))
-estatura = float(input("Ingrese su estatura en metros:"))
+# Respuesta
+# peso = float(input("Ingrese su peso en kg:"))
+# estatura = float(input("Ingrese su estatura en metros:"))
+
+# imc = round(float(peso)/float(estatura)**2,2)
+
+# print("Su índice de masa carporal es de:", str(imc))
+
+# Escribir un programa que pida al usuario dos números enteros y muestre por pantalla la <n> entre <m> da un cociente <c> y un resto <r> 
+# donde <n> y <m> son los números introducidos por el usuario, y <c> y <r> son el cociente y el resto de la división entera respectivamente.
+
+# n = input("Ingresa el dividendo (entero): ")
+# m = input("Ingrese el divisor (entero): ")
+
+# # Cociente
+# c = int(n) // int(m)
+
+# # Resto
+# r = int(n) % int(m)
+
+# print(n, "entre", m, "da un resultado de", str(c), "y un resto de", str(r))
+
+# Escribir un programa que pregunte al usuario una cantidad a invertir, el interés anual y el número de años,
+#  y muestre por pantalla el capital obtenido en la inversión.
+
+# dinero_inversion = float(input("Ingrese la cantidad de dinero que desea invertir: "))
+# interes_anual = float(input("Ingrese el porcentaje de interés anual: "))
+# años_inversion = float(input("Ingrese el tiempo de duración de la inversión en años: "))
+
+# capital_obtenido = float(dinero_inversion) * ((1+float(interes_anual/100)) ** float(años_inversion))
+
+# print("Su capital obtenido en la inversión es de:", str(capital_obtenido))
