@@ -74,6 +74,7 @@
 # Escribir un programa que pregunte al usuario una cantidad a invertir, el interés anual y el número de años,
 #  y muestre por pantalla el capital obtenido en la inversión.
 
+# Resultado
 # dinero_inversion = float(input("Ingrese la cantidad de dinero que desea invertir: "))
 # interes_anual = float(input("Ingrese el porcentaje de interés anual: "))
 # años_inversion = float(input("Ingrese el tiempo de duración de la inversión en años: "))
@@ -81,3 +82,8 @@
 # capital_obtenido = float(dinero_inversion) * ((1+float(interes_anual/100)) ** float(años_inversion))
 
 # print("Su capital obtenido en la inversión es de:", str(capital_obtenido))
+
+# Una juguetería tiene mucho éxito en dos de sus productos: payasos y muñecas. Suele hacer venta por correo y 
+# la empresa de logística les cobra por peso de cada paquete así que deben calcular el peso de los payasos y 
+# muñecas que saldrán en cada paquete a demanda. Cada payaso pesa 112 g y cada muñeca 75 g. 
+# Escribir un programa que lea el número de payasos y muñecas vendidos en el último pedido y calcule el peso total del paquete que será enviado.
