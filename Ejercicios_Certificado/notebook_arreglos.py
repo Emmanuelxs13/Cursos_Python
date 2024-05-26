@@ -1,0 +1,1 @@
+# Hagamos algunos calculos con arreglos que serán de gran utulidad para entender y usar el modelado
