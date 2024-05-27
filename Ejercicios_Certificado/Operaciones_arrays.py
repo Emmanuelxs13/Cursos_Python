@@ -14,3 +14,16 @@ for suma1 in arreglo1:
 #Mostramos el resultado obtenido
 print(s)
 
+#Ahora inténtelo ud mismo.
+#Suponga que tiene los siguietnes dos arreglos:
+# [2,4,6,8,10] y [12,13,14,15]
+#Queremos obtener la suma de los elementos de estos dos arreglos.
+#Debe obtener el siguiente resultado
+# 84
+# Adelánte, inténtelo.
+
+array1 = [2,4,6,8,10]
+array2 = [12,13,14,15]
+
+suma_total = sum(array1) + sum(array2)
+print(suma_total)
