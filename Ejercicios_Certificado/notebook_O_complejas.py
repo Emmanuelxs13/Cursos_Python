@@ -39,3 +39,21 @@ while a < b:
     c = c+1
 print(c)
 
+# Ahora inténtelo ud mismo, suponga que desea saber cuantos días le toma a la cantidad del primer ejemplo en triplicarse.
+# Debe obtener 111 días
+
+# Declaramos las variables:
+cantidad_inicial = 1000
+cantidad_objetivo = 3 * cantidad_inicial
+interes_diario = 0.01
+cantidad_actual = cantidad_inicial
+dias = 0
+
+# Usamos un ciclo while para iterar hasta que la cantidad actual sea igual o mayor al objetivo:
+while cantidad_actual < cantidad_objetivo :
+    cantidad_actual += cantidad_actual * interes_diario
+    dias += 1
+
+#Resultados
+print("Cantidad alcanzada: $", cantidad_actual)
+print("Días necesarios: ", dias)
