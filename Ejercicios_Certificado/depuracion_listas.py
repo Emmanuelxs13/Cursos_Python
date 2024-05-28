@@ -1,0 +1,1 @@
+#En cualquier modelo, siempre es útil identificar valores duplicados, ya sea para encontrar una tendendcia o para eliminarlos y evitar ruido en el análisis que se esté dando.
