@@ -93,3 +93,21 @@ funcion_03("Lucas", 25, "cerveza")
 funcion_03("Pedro", 35, "wisky")
 funcion_03("Juan", 55, "vino")
 
+# Ahora inténtelo ud mismo con uno de nuestros ejemplos anteriores, en donde pueda ingresar las siguietnes variables: cantidad, interés y visualice estas mismas variables al alcanzar 5 veces la cantidad ingresada:
+
+# Solicitamos la entrada de las variables
+cantidad_inicial = float(input("Ingrese la cantidad inicial: "))
+interes = float(input("Ingrese el interés diario (en decimal, por ejemplo, 0.01 para 1%): "))
+
+# Inicializamos las variables
+cantidad = cantidad_inicial
+dia = 0
+
+# Realizamos los cálculos hasta que la cantidad sea al menos 5 veces la cantidad inicial
+while cantidad < 5 * cantidad_inicial:
+    cantidad += cantidad * interes
+    dia += 1
+
+# Visualizamos la cantidad final y el número de días
+print("Cantidad final: $", round(cantidad, 2))
+print("Número de días:", dia)
