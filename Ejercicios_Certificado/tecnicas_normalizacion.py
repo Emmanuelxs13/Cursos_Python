@@ -1,0 +1,1 @@
+"La normalización de la base de datos es el proceso de estructuración de una base de datos, generalmente una base de datos relacional, de acuerdo con una serie de las llamadas formas normales para reducir la redundancia de datos y mejorar la integridad de los datos."
