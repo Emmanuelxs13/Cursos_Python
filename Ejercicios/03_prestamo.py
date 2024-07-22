@@ -19,6 +19,4 @@ elif ingresos_mensuales >= 2000000 :
     monto_maximo = 120000000 if monto_prestamo > 120000000 else monto_prestamo
     print("Cuota inicial: $", cuota_inicial)
     print("Pagos mensuales para 10 años: $", (monto_prestamo - cuota_inicial)/120)
-    print("Pagos mensuales para 15 años: $", (monto_prestamo - cuota_inicial)/180)
-    
-    
+    print("Pagos mensuales para 15 años: $", (monto_prestamo - cuota_inicial)/180)    
